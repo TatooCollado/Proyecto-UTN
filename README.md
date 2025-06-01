@@ -9,7 +9,6 @@ Di Monaco, Florencia
 
 Collado, Ignacio
 
-Descripción
 Este proyecto fue desarrollado como parte de la Tecnicatura Universitaria en Programación de la UTN. Consiste en una aplicación web de un gimnasio donde tiene alta/baja,modificación y borrado de clientes. Un sistema de login. Inscripción a las clases y consulta de horarios.
 LinkedIn
 
