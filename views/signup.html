@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/logogym.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/signup.css">
+    <script src="../js/signup.js" defer></script>
+    <title>REGISTRARSE</title>
+</head>
+<body>
+    <header>
+        <div class="logo-header-container">
+            <a href="../views/index.html"><img class="logo" alt="gimnasio-logo" src="../assets/logogym.png"></a>
+            <h1>NOMBRE GIMNASIO</h1>
+        </div>
+        <div class="login-signup-header">
+            <a href="../views/login.html">
+                Iniciar sesión
+                <img src="../assets/login-button.png" alt="login-icono">
+            </a>
+        </div>
+    </header>
+    <main class="signup-main">
+        <aside>
+            <nav>
+                <ul>
+                    <div class="login-signup-nav">
+                        <li>
+                            <a href="../views/index.html">
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../views/login.html">
+                                Iniciar sesión
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+                <div class="contacto-aside">
+                    <div>
+                        <img src="../assets/ubicacion.png" alt="ubicacion-icono">
+                        <p>
+                            Ubicación
+                            <iframe src="url" frameborder="0"></iframe>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="../assets/telefono.png" alt="telefono-icono">
+                        <a href="tel:+3413185623">+3413185623</a>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+        <form id="formularioRegistro" class="signup-formulario">
+            <h2>REGISTRARSE</h2>
+                <div class="label-input-container">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <p id="error-nombre"></p>
+                </div>
+                <div class="label-input-container">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                    <p id="error-apellido"></p>
+                </div>
+                <div class="label-input-container">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email">
+                    <p id="error-email"></p>
+                </div>
+                <div class="label-input-container">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="number" id="telefono" name="telefono">
+                    <p id="error-telefono"></p>
+                </div>
+                <div class="label-input-container">
+                    <label for="fecha">Fecha de nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha">
+                    <p id="error-fecha"></p>
+                </div>
+                <div class="label-input-container">
+                    <label>Contraseña:</label>
+                    <input type="password" id="contraseña" name="contraseña" placeholder="***********">
+                    <p id="error-contraseña"></p>
+                </div>
+                <div class="label-input-container">
+                    <label>Repetir contraseña:</label>
+                    <input type="password" id="confirmarContraseña" name="confirmarContraseña" placeholder="***********">
+                    <p id="error-confirmarContraseña"></p>
+                </div>
+                <div class="label-input-container">
+                    <label for="comentario">Comentarios:</label>
+                    <textarea id="comentario" name="comentario" rows="10" cols="40" placeholder="Escriba aquí..."></textarea>
+                </div>
+                <input type="button" id="signup-boton" class="aceptar-boton" value="Registrarse">
+        </form>
+    </main>
+    <footer>
+        <a href="#" target="_blank">
+            <img src="../assets/whatsapp.png" alt="whatsapp-icono">
+            +3413185623
+        </a>
+        <a href="#" target="_blank">
+            <img src="../assets/facebook.png" alt="facebook-icono">
+            **NOMBRE GIMNASIO**
+        </a>
+        <p>
+            **NOMBRE GIMNASIO** Todos los derechos reservados. 2025&copy;
+        </p>
+    </footer>
+</body>
+</html>

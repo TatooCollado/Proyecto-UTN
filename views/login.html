@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../assets/logogym.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+    <title>INICIAR SESIÓN</title>
+</head>
+<body>
+    <header>
+        <div class="logo-header-container">
+            <a href="../views/index.html"><img class="logo" alt="gimnasio-logo" src="../assets/logogym.png"></a>
+            <h1>NOMBRE GIMNASIO</h1>
+        </div>
+        <div class="login-signup-header">
+            <a href="../views/signup.html">
+                Registrarse
+                <img src="../assets/signup-button.png" alt="signup-icono">
+            </a>
+        </div>
+    </header>
+
+    <main class="login-main">
+        <aside>
+            <nav>
+                <ul>
+                    <div class="login-signup-nav">
+                        <li><a href="../views/index.html">Inicio</a></li>
+                        <li><a href="../views/signup.html">Registrarse</a></li>
+                    </div>
+                </ul>
+                <div class="contacto-aside">
+                    <div>
+                        <img src="../assets/ubicacion.png" alt="ubicacion-icono">
+                        <p>
+                            Ubicación
+                            <iframe src="url" frameborder="0"></iframe>
+                        </p>
+                    </div>
+                    <div>
+                        <img src="../assets/telefono.png" alt="telefono-icono">
+                        <a href="tel:+3413185623">+3413185623</a>
+                    </div>
+                </div>
+            </nav>
+        </aside>
+        <form id="formularioacceso" class="login-formulario">
+            <h2>Iniciar sesión</h2>
+            <div class="label-input-container">
+                <label for="email">E-mail:</label>
+                <input id="email" type="email" name="email" placeholder="ejemplo@gmail.com">
+                <p id="emailError"></p>
+            </div>
+            <div class="label-input-container">
+                <label for="contraseña">Contraseña:</label>
+                <input id="contraseña" type="password" placeholder="***********">
+                <p id="contraseñaError"></p>
+            </div>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+            <input id="login-boton" class="aceptar-boton" type="submit" value="Iniciar sesión">
+        </form>
+        <form id="formulariorecuperar" class="login-formulario">
+            <h2>Recuperar contraseña</h2>
+            <div class="label-input-container">
+                <label for="recuperarcontraseñaemail">Ingrese su e-mail para recuperar su contraseña:</label>
+                <input id="recuperarcontraseñaemail" type="email" name="email" placeholder="ejemplo@gmail.com">
+                <p id="recuperarError"></p>
+            </div>
+            <input id="recuperarcontrasena-boton" class="aceptar-boton" type="submit" value="Recuperar contraseña">
+        </form>
+    </main>
+    <footer>
+        <a href="#" target="_blank">
+            <img src="../assets/whatsapp.png" alt="whatsapp-icono">
+            +3413185623
+        </a>
+        <a href="#" target="_blank">
+            <img src="../assets/facebook.png" alt="facebook-icono">
+            **NOMBRE GIMNASIO**
+        </a>
+        <p>**NOMBRE GIMNASIO** Todos los derechos reservados. 2025&copy;</p>
+    </footer>
+</body>
+</html>
